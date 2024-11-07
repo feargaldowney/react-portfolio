@@ -2,6 +2,7 @@ import styles from './ProjectsStyles.module.css'
 import gameRoom from '../../assets/game-room.png';
 import viberr from '../../assets/viberr.png';
 import freshBrgr from '../../assets/fresh-burger.png';
+import spring from '../../assets/spring.png';
 import ProjectCard from '../../common/ProjectCard';
 
 
@@ -25,9 +26,15 @@ function Projects() {
             />
             <ProjectCard 
             src={freshBrgr} 
-            link="https://github.com/feargaldowney/ravenous"
-            h3="Ravenous"
-            p="Restauraunt Suggestion Web App"
+            link="https://github.com/feargaldowney/smithereens"
+            h3="Smithereens"
+            p="Web app for band featuring ticket sales"
+            />
+            <ProjectCard 
+            src={spring} 
+            link="https://github.com/feargaldowney/spring"
+            h3="Rental Management Service"
+            p="A RESTful web service using Spring Boot and JPA"
             />
         </div>
     </section>

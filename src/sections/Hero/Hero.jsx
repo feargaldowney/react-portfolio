@@ -37,7 +37,7 @@ function Hero() {
                 <br />
                 Downey
             </h1>
-            <h2>Full stack Developer</h2>
+            <h2>Junior Developer</h2>
             <span>
                 <a href="https://www.linkedin.com/in/feargal-downey/">
                     <img src={LinkedInIcon} alt="LinkedIn Icon"/>
@@ -49,7 +49,7 @@ function Hero() {
             <span>
             <p className={styles.description}>
                 Recently graduated software developer with keen interest in 
-                full stack development.
+                front end development, mobile development & the power of gamification.
             </p></span>
             <a href={CV} download>
                 <button className="hover">Resume</button>
