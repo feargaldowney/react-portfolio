@@ -25,17 +25,18 @@ function Projects() {
             p="Spotify Playlist Creator Web App"
             />
             <ProjectCard 
-            src={freshBrgr} 
-            link="https://github.com/feargaldowney/smithereens"
-            h3="Smithereens"
-            p="Web app for band featuring ticket sales"
-            />
-            <ProjectCard 
             src={spring} 
             link="https://github.com/feargaldowney/spring"
             h3="Rental Management Service"
             p="A RESTful web service using Spring Boot and JPA"
             />
+            <ProjectCard 
+            src={freshBrgr} 
+            link="https://github.com/feargaldowney/smithereens"
+            h3="Smithereens"
+            p="Web app for band featuring ticket sales"
+            />
+      
         </div>
     </section>
   );
